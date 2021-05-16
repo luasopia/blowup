@@ -1,8 +1,9 @@
 -------------------------------------------------------------------------------
 -- 2021/05/16: refactored. usage:
--- local function expl = import 'expl'
--- local e = expl():xy(nx,ny)
--- expl() returns Group object that is self-removed after 500ms
+-- local function blowup = import 'blowup'
+-- local e = blowup():xy(nx,ny)
+-- blowup() returns Group object in which blow-up effect in contained.
+-- The group object is self-removed after 500ms.
 -------------------------------------------------------------------------------
 
 -- Receives a function u() that reflects the path information
